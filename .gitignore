@@ -1,0 +1,28 @@
+# Model weights and trained artifacts (host weights on Hugging Face instead)
+models/
+*.pkl
+*.bin
+*.safetensors
+checkpoints/
+
+# Data (see data/README.md for download instructions)
+data/processed/
+*.csv
+
+# Generated outputs
+test_predictions*.csv
+youtube_predictions*.csv
+test_errors.csv
+
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

@@ -1,0 +1,10 @@
+torch
+transformers>=4.41
+datasets
+accelerate
+scikit-learn
+pandas
+numpy
+scipy
+joblib
+gradio
